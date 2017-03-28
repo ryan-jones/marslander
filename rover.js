@@ -79,28 +79,24 @@ function getDirection() {
       case "N":
 
         myRover.direction = "W";
-        //roverTwo.direction = "W";
         console.log(newDirectionStr + myRover.direction + ", " + newDirectionStr + roverTwo.direction);
         break;
 
       case "W":
 
         myRover.direction = "S";
-        //roverTwo.direction = "S";
         console.log(newDirectionStr + myRover.direction + ", " + newDirectionStr + roverTwo.direction);
         break;
 
       case "S":
 
         myRover.direction = "E";
-        //roverTwo.direction = "E";
         console.log(newDirectionStr + myRover.direction + ", " + newDirectionStr + roverTwo.direction);
         break;
 
       case "E":
 
         myRover.direction = "N";
-        //roverTwo.direction = "N";
         console.log(newDirectionStr + myRover.direction + ", " + newDirectionStr + roverTwo.direction);
         break;
     } //end switch (myRover.direction)
